@@ -1,0 +1,102 @@
+/* 
+common UI elements
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.d-flex { display: flex; }
+
+body { font-family: sans-serif; }
+
+/* 
+header elements
+*/
+
+header { background-color: #0084fd; }
+
+.header-container {
+    width: 60%;
+    margin: auto;
+    height: 85px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container img { height: 50%; }
+
+.header-container img:hover { cursor: pointer; }
+
+.header-link {
+    align-items: center;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.header-link a:hover { text-decoration: underline; }
+
+.header-link button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+}
+
+.header-link button:hover {
+    cursor: pointer;
+    background-color: rgb(212, 213, 214);
+}
+
+#menu {
+    filter: invert(1);
+    display: none;
+}
+
+/* 
+header menu link responsive
+*/
+
+@media only screen and (max-width: 1141px) {
+    
+    .header-link { display: none; }
+
+    #menu { display: block; }
+
+    #manu:hover { cursor: pointer; }
+}
+
+/* 
+tablet responsive
+*/
+
+@media only screen and (max-width: 768px) {
+
+    .header-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+   
+}
+
+/* 
+mobile responsive
+*/
+
+@media only screen and (max-width: 480px) {
+
+    .header-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+   
+}
