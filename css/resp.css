@@ -22,6 +22,11 @@ tablet responsive
         padding: 0 20px;
     }
 
+    .container-elements {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
     .demo-application {
         flex-direction: column;
     }
@@ -42,9 +47,35 @@ mobile responsive
     .container-top {
         flex-direction: column;
     }
+    
+    .demo-application {
+        width: 100%;
+        padding: 0 20px;
+        align-items: center;
+    }
+
+    .clean-code {
+        width: 100%;
+        padding: 0 20px;
+    }
 
     .container-bottom {
         flex-direction: column;
     }
    
+    .web-design {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .developement {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .branding {
+        width: 100%;
+        padding: 0 20px;
+    }   
+
 }
