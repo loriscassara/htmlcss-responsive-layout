@@ -17,6 +17,9 @@ body { font-family: sans-serif; }
 
 .colorg { color: gray; }
 .colorb { color: #0084fd; }
+.colorw { color: white; }
+
+.fs-oblique { font-style: oblique; }
 
 .iconwhite { filter: invert(1); }
 
@@ -81,6 +84,7 @@ main elements
 .container-elements {
     width: 60%;
     margin: auto;
+    height: 840px;
 }
 
 .demo-application {
@@ -171,4 +175,62 @@ main elements
 
 .branding img {
     width: 33%;
+}
+
+.main-block-purple { background-color: #9792e4; }
+
+.container-elements2 {
+    width: 60%;
+    margin: auto;
+    height: 840px;
+}
+
+.dev-general-container {
+    align-items: flex-end;
+}
+
+.strategic-planning {
+    width: 50%;
+    flex-direction: column;
+}
+
+.strategic-planning img {
+    width: 80%;
+    height: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.strategic-planning p {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.container-dev {
+    background-color: white;
+    border-radius: 30px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-dev img {
+    width: 80%;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.container-dev p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.arrow-icon {
+    border-radius: 50%;
+    width: 15%;
+    justify-content: center;
+    margin-bottom: 5%;
 }

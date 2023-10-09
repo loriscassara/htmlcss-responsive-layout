@@ -30,6 +30,21 @@ tablet responsive
     .demo-application {
         flex-direction: column;
     }
+
+    .container-elements2 {
+        width: 100%;
+        padding: 0 20px;
+        flex-direction: column;
+    }
+
+    .dev-general-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .strategic-planning img {
+        width: 100%;
+    }
    
 }
 
