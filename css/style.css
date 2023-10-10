@@ -1,0 +1,308 @@
+/* 
+    commons UI elements
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.d-flex { display: flex; }
+
+.bg-purple { background-color: #9792E4; }
+
+/* 
+    header elements
+*/
+
+header {
+    background-color: #0084FD;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    margin-bottom: 32px;
+}
+
+header img {
+    height: 50%;
+    transition: all .55s ease;
+}
+
+header img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#menu-icon {
+    color: white;
+    font-size: 32px;
+}
+
+#menu-icon:hover { cursor: pointer; }
+
+/* 
+    main elements demo-apllication
+*/
+
+.demo-application {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+}
+
+.demo-application h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #0084FD;
+}
+
+.demo-application > p {
+    color: rgb(77, 77, 77);
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 600;
+}
+
+.demo-application button {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    background-color: #0084FD;
+    align-items: center;
+    justify-content: center;
+}
+
+.demo-application button:hover {
+    background-color: #0168c9;
+    cursor: pointer;
+}
+
+#apple-icon {
+    font-size: 25px;
+    padding: 4px;
+}
+
+.demo-application button > p {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.demo-application img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin: 16px 16px 0 16px;
+}
+
+/* 
+    main elements clean-code
+*/
+
+.clean-code {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#code-icon {
+    font-size: 100px;
+    color: #0084FD;
+    padding: 16px;
+}
+
+.clean-code h2 {
+    padding: 16px;
+    color: #0084FD;
+}
+
+.clean-code > p {
+    color: rgb(77, 77, 77);
+    padding: 16px;
+    font-weight: 600;
+}
+
+/* 
+    main elements web-design
+*/
+
+.web-design {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#code-icon {
+    font-size: 100px;
+    color: #0084FD;
+    padding: 16px;
+}
+
+.web-design h2 {
+    padding: 16px;
+    color: #0084FD;
+}
+
+.web-design > p {
+    color: rgb(77, 77, 77);
+    padding: 16px;
+    font-weight: 600;
+}
+
+/* 
+    main elements developement
+*/
+
+.developement {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#code-icon {
+    font-size: 100px;
+    color: #0084FD;
+    padding: 16px;
+}
+
+.developement h2 {
+    padding: 16px;
+    color: #0084FD;
+}
+
+.developement > p {
+    color: rgb(77, 77, 77);
+    padding: 16px;
+    font-weight: 600;
+}
+
+/* 
+    main elements branding
+*/
+
+.branding {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#code-icon {
+    font-size: 100px;
+    color: #0084FD;
+    padding: 16px;
+}
+
+.branding h2 {
+    padding: 16px;
+    color: #0084FD;
+}
+
+.branding > p {
+    color: rgb(77, 77, 77);
+    padding: 16px;
+    font-weight: 600;
+}
+
+/* 
+    main elements planning 0.0
+*/
+
+.planning-00 {
+    max-width: 400px;
+    margin: 32px auto;
+}
+
+.planning-00 img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin: 16px 16px 0 16px;
+}
+
+.planning-00 h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: white
+}
+
+.planning-00 > p {
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 300;
+}
+
+/* 
+    main elements planning 0.1
+*/
+
+#section-pl01 { padding: 8px; }
+
+.planning-01 {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planning-01 img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin: 16px 16px 0 16px;
+}
+
+.planning-01 h2 { padding: 16px; }
+
+.planning-01 > p {
+    padding: 16px;
+    font-style: oblique;
+    font-weight: 400;
+}
+
+.arrow-icon {
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.arrow-icon:hover {
+    background-color: #827ec2;
+    cursor: pointer;
+}
+
+#arrow-down {
+    width: 100%;
+    margin: 0 auto;
+}
+
