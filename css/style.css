@@ -428,3 +428,343 @@ header img:hover {
     padding: 16px;
     color: white
 }
+
+/* 
+    main elements benefit-work
+*/
+
+.benefit-work {
+    padding: 32px;
+    justify-content: center;
+    color: white;
+}
+
+/* 
+    main elements hight-quality
+*/
+
+.hight-quality {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.hight-quality h1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+    font-size: 50px;
+}
+
+.hight-quality h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+}
+
+.hight-quality > p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 400;
+}
+
+#button-hight-quality {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hight-quality button {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    background-color: #9792E4;
+}
+
+.hight-quality button:hover {
+    cursor: pointer;
+    background-color: #827ec2;
+}
+
+/* 
+    main elements creative-team
+*/
+
+.creative-team {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.creative-team h1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+    font-size: 50px;
+}
+
+.creative-team h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+}
+
+.creative-team > p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 400;
+}
+
+#button-hight-quality {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.creative-team button {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    background-color: #9792E4;
+}
+
+.creative-team button:hover {
+    cursor: pointer;
+    background-color: #827ec2;
+}
+
+/* 
+    main elements amazing-results
+*/
+
+.amazing-results {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.amazing-results h1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+    font-size: 50px;
+}
+
+.amazing-results h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+}
+
+.amazing-results > p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 400;
+}
+
+#button-hight-quality {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.amazing-results button {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    background-color: #9792E4;
+}
+
+.amazing-results button:hover {
+    cursor: pointer;
+    background-color: #827ec2;
+}
+
+/* 
+    main elements best-pricing
+*/
+
+.best-pricing {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.best-pricing h1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+    font-size: 50px;
+}
+
+.best-pricing h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+}
+
+.best-pricing > p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 400;
+}
+
+#button-hight-quality {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.best-pricing button {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    background-color: #9792E4;
+}
+
+.best-pricing button:hover {
+    cursor: pointer;
+    background-color: #827ec2;
+}
+
+/* 
+    main elements innovations
+*/
+
+.innovations {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.innovations h1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+    font-size: 50px;
+}
+
+.innovations h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+}
+
+.innovations > p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 400;
+}
+
+#button-hight-quality {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.innovations button {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    background-color: #9792E4;
+}
+
+.innovations button:hover {
+    cursor: pointer;
+    background-color: #827ec2;
+}
+
+/* 
+    main elements support
+*/
+
+.support {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.support h1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+    font-size: 50px;
+}
+
+.support h2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    color: #9792E4;
+}
+
+.support > p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 400;
+}
+
+#button-hight-quality {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.support button {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    background-color: #9792E4;
+}
+
+.support button:hover {
+    cursor: pointer;
+    background-color: #827ec2;
+}
