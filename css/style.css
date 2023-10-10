@@ -14,8 +14,10 @@
 .d-flex { display: flex; }
 
 .bg-purple { background-color: #9792E4; }
+.bg-black { background-color: #333333; }
 
 #bg-p { padding-bottom: 16px; }
+#underline { text-decoration: underline; }
 
 /* 
     header elements
@@ -850,4 +852,96 @@ header img:hover {
     font-size: 15px;
     font-weight: 500;
     padding: 2px;
+}
+
+/* 
+    main elements get-started
+*/
+
+.container-started {
+    max-width: 400px;
+    margin: 0px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+#par1 {
+    color: white;
+    font-weight: 100;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.container-started h2 {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.container-started h1 {
+    color: #FDC15F;
+    font-weight: 700;
+    font-size: 75px;
+    padding-bottom: 16px;
+}
+
+#par2 {
+    color: white;
+    padding-bottom: 16px;
+}
+
+.container-started button {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: none;
+    color: #9792E4;
+    border-radius: 35px;
+    background-color: white
+}
+
+.container-started button:hover {
+    cursor: pointer;
+    background-color: rgb(196, 193, 193);
+}
+
+#par3 {
+    color: white;
+    font-weight: 100;
+    font-size: small;
+    padding-bottom: 32px;
+}
+
+/* 
+    footer elements
+*/
+
+.footer-container {
+    max-width: 400px;
+    margin: 0px auto;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+#fpar1 {
+    color: white;
+    padding: 32px;
+    font-weight: 300;
+}
+
+#fpar2 {
+    color: white;
+    padding: 32px;
+    font-weight: 300;
+}
+
+.link {
+    color: #9792E4;
+    text-decoration: underline;
 }
