@@ -1,0 +1,29 @@
+/* 
+    responsive tablet
+*/
+
+@media screen and (min-width: 768px) {
+    .block-container0 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .clean-code {
+        height: 688px;
+        margin-left: 16px;
+    }
+
+    .block-container1 {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+/* 
+    responsive dekstop
+*/
+
+@media screen and (min-width: 992px) {
+    
+}
