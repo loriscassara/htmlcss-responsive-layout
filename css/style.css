@@ -306,3 +306,125 @@ header img:hover {
     margin: 0 auto;
 }
 
+/* 
+    main elements testimonials-text
+*/
+
+.testimonials-text {
+    max-width: 400px;
+    margin: 32px auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-text span {
+    padding: 32px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.testimonials-text h2 {
+    padding: 16px;
+    color: #9792E4;
+}
+
+.testimonials-text > p {
+    padding: 16px;
+    font-weight: 500;
+}
+
+/* 
+    main elements nat-reynolds
+*/
+
+.nat-reynolds {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #9792E4;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nat-reynolds img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin: 16px 16px 0 16px;
+    border-radius: 50%;
+}
+
+.nat-reynolds > p {
+    color: white;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.nat-reynolds h2 {
+    padding: 16px;
+    color: white
+}
+
+/* 
+    main elements celia-almeda
+*/
+
+.celia-almeda {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #9792E4;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.celia-almeda img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin: 16px 16px 0 16px;
+    border-radius: 50%;
+}
+
+.celia-almeda> p {
+    color: white;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.celia-almeda h2 {
+    padding: 16px;
+    color: white
+}
+
+/* 
+    main elements bob-roberts
+*/
+
+.bob-roberts {
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #9792E4;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bob-roberts img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin: 16px 16px 0 16px;
+    border-radius: 50%;
+}
+
+.bob-roberts > p {
+    color: white;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.bob-roberts h2 {
+    padding: 16px;
+    color: white
+}
